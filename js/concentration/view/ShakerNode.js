@@ -41,7 +41,7 @@ define( function( require ) {
   function ShakerNode( shaker, mvt ) {
 
     var thisNode = this;
-    Node.call( thisNode, { renderer: 'svg', rendererOptions: { cssTransform: true } } );
+    Node.call( thisNode, { renderer: 'svg' } );
 
     // shaker image
     var imageNode = new Image( shakerImage );
